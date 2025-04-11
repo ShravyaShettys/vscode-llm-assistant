@@ -1,0 +1,20 @@
+{
+  "name": "vscode-llm-assistant",
+  "displayName": "VSCode LLM Assistant",
+  "description": "A simple VSCode extension powered by an AI coding assistant.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onCommand:vscode-llm-assistant.helloWorld"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-llm-assistant.helloWorld",
+        "title": "Say Hello from LLM Assistant"
+      }
+    ]
+  }
+}
